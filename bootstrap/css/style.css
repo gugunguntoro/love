@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+body {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.gratis {
+  opacity: 0;
+  transform: translate(0, -300px)  rotate(-100deg);
+  transition: 5s;
+}
+
+
+.gratis.show {
+  opacity: 4;
+  transform: translate(0, 0);
+}
+
+.gratisdua {
+  opacity: 0;
+  transform: translate(0, 0);
+  transition: 30s;
+}
+
+
+.gratisdua.showgratisdua {
+  opacity: 1;
+  transform: translate(0, 0);
+}
